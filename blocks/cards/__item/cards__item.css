@@ -1,6 +1,7 @@
 .cards__item {
     width: 240px;
+    margin-right: 100px;
 }
-.cards__item:last-child {
-    margin: 0 340px 0 0;
+.cards__item:nth-child(3n) {
+    margin: 0 auto;
 }
